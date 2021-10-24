@@ -5,10 +5,8 @@ public class Main {
         int bonus;
         if (refill <= 100) {
             bonus = 0;
-        }else bonus = refill / 100;
+        } else bonus = refill / 100;
         int totalSum = currentAccount + refill + bonus;
-
-
 
 
         System.out.println(totalSum);
